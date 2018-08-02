@@ -1,2 +1,1 @@
-# MachineLearning
-Digit Recognization
+
