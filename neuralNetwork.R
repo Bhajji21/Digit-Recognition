@@ -3,7 +3,7 @@ startTime = proc.time()[3]
 startTime
 
 library(nnet)
-
+#traing of neural network
 modelName <- "neuralNetwork"
 InputDataFileName="E:/Tech MAhindra Project/DigitRecognition-master/mnist_train.csv"
 
