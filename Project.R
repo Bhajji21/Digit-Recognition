@@ -3,9 +3,8 @@ library(shiny)
 library(EBImage)
 library(nnet)
 load(modelFileName)
-
+# UI for project
 ui <- fluidPage(
-  
   fileInput(inputId = "image","Choose a Image",multiple=FALSE,accept=c('image/png','image/jpeg')),
   textOutput("digit"),
   imageOutput("myImage")
