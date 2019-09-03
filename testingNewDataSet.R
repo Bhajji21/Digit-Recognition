@@ -1,16 +1,11 @@
  cat("\nStep 2: Variable Declaration")
 modelFileName <- "neuralNetwork-Model.RData"
 #testFileName  <-"test.csv"
-
-
-
 #--------------------------------------------------------------
 # Step 3: Model Loading
 #--------------------------------------------------------------
 cat("\nStep 3: Model Loading")
 load(modelFileName)
-
-
 
 #--------------------------------------------------------------
 # Step 4: Data Loading
@@ -18,9 +13,9 @@ load(modelFileName)
 library(EBImage)
 Image <- readImage('three.jpg')
 #print(Image)
-#display(Image)
+display(Image)
 
-#colorMode(Image) <- Grayscale
+colorMode(Image) <- Grayscale
 
 
 #-------------------------------------------------------------
